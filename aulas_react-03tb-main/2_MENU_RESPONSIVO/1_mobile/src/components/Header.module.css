@@ -1,0 +1,26 @@
+.header {
+    
+}
+
+.mobile .menu {
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid #999;
+    padding: 1rem;
+}
+
+.options {
+    border: 1px solid #444;
+    width: 10rem;
+    translate: -100%;
+}
+
+.options nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.options.open {
+    translate: 0;
+}
